@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ydg-fD-yQy"/>
+                        <viewControllerLayoutGuide type="bottom" id="xbc-2k-c8Z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jCl-6q-adE">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="byd_launch_screen" translatesAutoresizingMaskIntoConstraints="NO" id="oEL-Gy-R0G">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="oEL-Gy-R0G" firstAttribute="top" secondItem="jCl-6q-adE" secondAttribute="top" id="a6C-1t-lIc"/>
+                                    <constraint firstAttribute="bottom" secondItem="oEL-Gy-R0G" secondAttribute="bottom" id="dnK-4l-iy0"/>
+                                    <constraint firstItem="oEL-Gy-R0G" firstAttribute="leading" secondItem="jCl-6q-adE" secondAttribute="leading" id="jmH-w1-lhK"/>
+                                    <constraint firstAttribute="trailing" secondItem="oEL-Gy-R0G" secondAttribute="trailing" id="y6b-AM-XM2"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jCl-6q-adE" firstAttribute="top" secondItem="Ydg-fD-yQy" secondAttribute="bottom" id="QJ4-Pv-QzC"/>
+                            <constraint firstItem="xbc-2k-c8Z" firstAttribute="top" secondItem="jCl-6q-adE" secondAttribute="bottom" id="ho9-pO-342"/>
+                            <constraint firstAttribute="trailing" secondItem="jCl-6q-adE" secondAttribute="trailing" id="j78-0s-GnC"/>
+                            <constraint firstItem="jCl-6q-adE" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="mTa-Lg-RG9"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="76.811594202898561" y="251.11607142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="byd_launch_screen" width="1080" height="2108"/>
+    </resources>
+</document>

@@ -1,0 +1,127 @@
+PODS:
+  - AMap3DMap-NO-IDFA (7.6.0):
+    - AMapFoundation-NO-IDFA (~> 1.6.3)
+  - amap_core_fluttify (0.0.1):
+    - AMapFoundation-NO-IDFA (= 1.6.4)
+    - Flutter
+    - foundation_fluttify
+  - amap_location_fluttify (0.0.1):
+    - amap_core_fluttify
+    - AMapLocation-NO-IDFA (= 2.6.7)
+    - Flutter
+    - foundation_fluttify
+  - amap_map_fluttify (0.0.1):
+    - AMap3DMap-NO-IDFA (= 7.6.0)
+    - amap_core_fluttify
+    - amap_location_fluttify
+    - amap_search_fluttify
+    - Flutter
+    - foundation_fluttify
+    - url_launcher
+  - amap_search_fluttify (0.0.1):
+    - amap_core_fluttify
+    - AMapSearch-NO-IDFA (= 7.3.0)
+    - Flutter
+    - foundation_fluttify
+  - AMapFoundation-NO-IDFA (1.6.4)
+  - AMapLocation-NO-IDFA (2.6.7):
+    - AMapFoundation-NO-IDFA (~> 1.6.4)
+  - AMapSearch-NO-IDFA (7.3.0):
+    - AMapFoundation-NO-IDFA (~> 1.6.3)
+  - core_location_fluttify (0.0.1):
+    - Flutter
+    - foundation_fluttify
+  - device_info (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - foundation_fluttify (0.0.1):
+    - Flutter
+  - local_auth (0.0.1):
+    - Flutter
+  - orientation (0.0.1):
+    - Flutter
+  - "permission_handler (5.0.1+1)":
+    - Flutter
+  - shared_preferences (0.0.1):
+    - Flutter
+  - url_launcher (0.0.1):
+    - Flutter
+  - webview_flutter (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - amap_core_fluttify (from `.symlinks/plugins/amap_core_fluttify/ios`)
+  - amap_location_fluttify (from `.symlinks/plugins/amap_location_fluttify/ios`)
+  - amap_map_fluttify (from `.symlinks/plugins/amap_map_fluttify/ios`)
+  - amap_search_fluttify (from `.symlinks/plugins/amap_search_fluttify/ios`)
+  - core_location_fluttify (from `.symlinks/plugins/core_location_fluttify/ios`)
+  - device_info (from `.symlinks/plugins/device_info/ios`)
+  - Flutter (from `Flutter`)
+  - foundation_fluttify (from `.symlinks/plugins/foundation_fluttify/ios`)
+  - local_auth (from `.symlinks/plugins/local_auth/ios`)
+  - orientation (from `.symlinks/plugins/orientation/ios`)
+  - permission_handler (from `.symlinks/plugins/permission_handler/ios`)
+  - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
+  - url_launcher (from `.symlinks/plugins/url_launcher/ios`)
+  - webview_flutter (from `.symlinks/plugins/webview_flutter/ios`)
+
+SPEC REPOS:
+  trunk:
+    - AMap3DMap-NO-IDFA
+    - AMapFoundation-NO-IDFA
+    - AMapLocation-NO-IDFA
+    - AMapSearch-NO-IDFA
+
+EXTERNAL SOURCES:
+  amap_core_fluttify:
+    :path: ".symlinks/plugins/amap_core_fluttify/ios"
+  amap_location_fluttify:
+    :path: ".symlinks/plugins/amap_location_fluttify/ios"
+  amap_map_fluttify:
+    :path: ".symlinks/plugins/amap_map_fluttify/ios"
+  amap_search_fluttify:
+    :path: ".symlinks/plugins/amap_search_fluttify/ios"
+  core_location_fluttify:
+    :path: ".symlinks/plugins/core_location_fluttify/ios"
+  device_info:
+    :path: ".symlinks/plugins/device_info/ios"
+  Flutter:
+    :path: Flutter
+  foundation_fluttify:
+    :path: ".symlinks/plugins/foundation_fluttify/ios"
+  local_auth:
+    :path: ".symlinks/plugins/local_auth/ios"
+  orientation:
+    :path: ".symlinks/plugins/orientation/ios"
+  permission_handler:
+    :path: ".symlinks/plugins/permission_handler/ios"
+  shared_preferences:
+    :path: ".symlinks/plugins/shared_preferences/ios"
+  url_launcher:
+    :path: ".symlinks/plugins/url_launcher/ios"
+  webview_flutter:
+    :path: ".symlinks/plugins/webview_flutter/ios"
+
+SPEC CHECKSUMS:
+  AMap3DMap-NO-IDFA: 5e5b483ef230d1bed6c8d989d36254a66c67a6fc
+  amap_core_fluttify: 9e5af179f8151193fa1c9a420bcbcbf2701f648c
+  amap_location_fluttify: baa3007e3f215456ab2ea2f4ccccf5bc1a9a164b
+  amap_map_fluttify: 6b64256d6ccea7813e1b6423fcf7b5ef10d3c984
+  amap_search_fluttify: 9ce87f8cf0825509c9f3f6de758a5fd9b5ff7eac
+  AMapFoundation-NO-IDFA: 68a24362b110b8e0a3677605d0fd36bdf521f2bb
+  AMapLocation-NO-IDFA: 2a3edfee336b38481b892e1ecc85df0f6b365851
+  AMapSearch-NO-IDFA: 85555dc9ba312949d39a259baa4ef4e0619fa944
+  core_location_fluttify: 9466a411ea7d22c6349c7e6a767ae4623f01eb1d
+  device_info: cbf09d2ec12aa7110e0b09fabe54b5bd6c8efe74
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  foundation_fluttify: 0c45145e3fad1fb99188e4979daed5b24cd9b278
+  local_auth: 25938960984c3a7f6e3253e3f8d962fdd16852bd
+  orientation: 6c9203efe86ce4cff379756910f18b2d745628c3
+  permission_handler: eac8e15b4a1a3fba55b761d19f3f4e6b005d15b6
+  shared_preferences: af6bfa751691cdc24be3045c43ec037377ada40d
+  url_launcher: 6fef411d543ceb26efce54b05a0a40bfd74cbbef
+  webview_flutter: bec7599de6bfbe8008a739aa3ebd7b364ea9d0cd
+
+PODFILE CHECKSUM: 70fc82e3494d19fc7ef96e95529eec6f3310d273
+
+COCOAPODS: 1.10.0

@@ -60,7 +60,27 @@ class _BYDMainPageState extends State<BYDMainPage>
         });
       }
     });
+
     super.initState();
+  }
+@override
+  void didChangeDependencies() {
+  loadAds();
+    super.didChangeDependencies();
+  }
+  void loadAds() {
+    Future.delayed(Duration(milliseconds: 1000), () {
+      BYDDialog(
+        dialogHeight: 200,
+          context: context,
+          cancelString: S.of(context).cancel,
+          confirmString: S.of(context).confirm,
+          detailString: "比亚迪老车主推荐购车，新车主享受赠送高达15000迪粉汇积分。加我微信AwesomeCheer，我推荐你。",
+          onConfirmTap: () {
+
+          },
+          onCancelTap: () {});
+    });
   }
 
   void updateRefreshTime() {
@@ -294,7 +314,10 @@ class _BYDMainPageState extends State<BYDMainPage>
                                   style:
                                       TextStyle(color: BYDColor.bydTextColor4),
                                 ),
-                                bottom: configStore.powerType == PowerType.PowerTypeHybrid ? topHeight * 0.07 :topHeight * 0.1 ,
+                                bottom: configStore.powerType ==
+                                        PowerType.PowerTypeHybrid
+                                    ? topHeight * 0.07
+                                    : topHeight * 0.1,
                                 width: MediaQuery.of(context).size.width,
                               ),
                             ],
@@ -302,8 +325,8 @@ class _BYDMainPageState extends State<BYDMainPage>
                         ),
                         configStore.powerType == PowerType.PowerTypeHybrid
                             ? Container(
-                          alignment: Alignment.topCenter,
-                          height: 50,
+                                alignment: Alignment.topCenter,
+                                height: 50,
                                 padding: EdgeInsets.symmetric(horizontal: 15),
                                 child: Flex(
                                   direction: Axis.horizontal,

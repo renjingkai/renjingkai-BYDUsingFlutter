@@ -11,6 +11,7 @@ class BYDDialog {
       String confirmString = "",
       String cancelString,
       String detailString = "",
+      double dialogHeight = 125,
       Function onConfirmTap,
       Function onCancelTap}) {
     confirmString = S.of(context).confirm;
@@ -29,7 +30,7 @@ class BYDDialog {
               color: BYDColor.bydBackgroundColor,
             ),
             padding: EdgeInsets.all(20),
-            height: 120,
+            height: dialogHeight,
             width: MediaQuery.of(context).size.width * 0.75,
             child: Material(
               color: BYDColor.bydBackgroundColor,
@@ -37,16 +38,11 @@ class BYDDialog {
                 direction: Axis.vertical,
                 children: [
                   Expanded(
-                      child: Row(
-                    mainAxisAlignment: MainAxisAlignment.start,
-                    children: [
-                      Text(detailString,
+                      child: Text(detailString,
                           style: TextStyle(
                               fontSize: font16,
                               color: BYDColor.bydTextColor2,
-                              fontWeight: FontWeight.w300)),
-                    ],
-                  )),
+                              fontWeight: FontWeight.w300))),
                   Expanded(
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.end,
